@@ -1,3 +1,5 @@
 stem >= 1.7.1
 mitmproxy >= 4.0.4
 requests[socks] >= 2.22.0
+cryptography>=41.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
