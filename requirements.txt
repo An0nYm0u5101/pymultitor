@@ -1,3 +1,4 @@
 stem >= 1.7.1
 mitmproxy >= 4.0.4
 requests[socks] >= 2.22.0
+h2>=4.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
